@@ -1,6 +1,6 @@
-# tf2attributes
+# tf2c_attributes
 
-TF2Attributes SourceMod plugin
+TF2C Attributes SourceMod plugin
 
 https://forums.alliedmods.net/showthread.php?t=210221
 
