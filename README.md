@@ -1,8 +1,15 @@
 # tf2c_attributes
 
-TF2C Attributes SourceMod plugin
+TF2C Attributes x64 SourceMod plugin
 
-https://forums.alliedmods.net/showthread.php?t=210221
+TF2 attributes plugin port for TF2 Classified. Changes:
+1. actualized version of gamedata for TF2C
+2. introduced small changes to the `tf2attributes.sp` and verified functionality via `tf2attributes_test.smx` plugin
+
+Based on this fork (for TF2x64): https://github.com/Malifox/tf2attributes
+AlliedModders link for additional info: https://forums.alliedmods.net/showthread.php?t=210221
+
+NOTE: Because Sourcemod is not fully compatible with x64 source games (in particular sdktools and dhooks are still in hard development) this plugin uses virtual address method. In the future this method may become irrelevant.
 
 ## Now featuring the following functionality from [nosoop/tf2attributes](https://github.com/nosoop/tf2attributes)
 
@@ -35,15 +42,12 @@ Setting custom names / descriptions is not possible.  String values that are set
 are not replicated to the client &mdash; this is fine for attributes that are only accessed on
 the server, but if you set any that the client will read, the client will crash on access.
 
-## Installing or updating to 1.7
+## Installing 1.7.5C
 
-All plugins compiled for previous versions should continue to work with this one.
-The installation instructions remain the same as before
-
-1. Download all the non-source code files in [the latest release][].
+1. Make sure you have the latest version of Metamod:Source (dev 2.0 build 1387 or later)
+2. Make sure you have the latest version of Sourcemod (dev 1.13 build 7293 or later)
+3. Download this repository.
 2. Copy `tf2attributes.smx` to `addons/sourcemod/plugins/`.
 3. Copy `tf2.attributes.txt` to `addons/sourcemod/gamedata/`.
 4. If you're a developer, copy `tf2attributes.inc` to `addons/sourcemod/scripting/include/`
 (or the appropriate path for your compiler toolchain / project).
-
-[the latest release]: https://github.com/flaminsarge/tf2attributes/releases
