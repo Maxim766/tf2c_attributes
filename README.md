@@ -3,13 +3,13 @@
 TF2C Attributes x64 SourceMod plugin
 
 TF2 attributes plugin port for TF2 Classified. Changes:
-1. actualized version of gamedata for TF2C
-2. introduced small changes to the `tf2attributes.sp` and verified functionality via `tf2attributes_test.smx` plugin
+1. Actualized version of gamedata for TF2C
+2. Introduced small changes to the `tf2attributes.sp` and verified functionality via `tf2attributes_test.smx` plugin
 
 Based on this fork (for TF2x64): https://github.com/Malifox/tf2attributes
 AlliedModders link for additional info: https://forums.alliedmods.net/showthread.php?t=210221
 
-NOTE: Because Sourcemod is not fully compatible with x64 source games (in particular sdktools and dhooks are still in hard development) this plugin uses virtual address method. In the future this method may become irrelevant.
+NOTE: Because Sourcemod is not fully compatible with x64 source games (in particular sdktools and dhooks are still in hard development) this plugin uses virtual address method. If you have some problems with this plugin - please, open issue.
 
 ## Now featuring the following functionality from [nosoop/tf2attributes](https://github.com/nosoop/tf2attributes)
 
