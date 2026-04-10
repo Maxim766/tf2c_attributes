@@ -46,7 +46,7 @@ the server, but if you set any that the client will read, the client will crash 
 ## Installing 1.7.5C
 
 1. Make sure you have the latest version of Metamod:Source (dev 2.0 build 1387 or later)
-2. Make sure you have the latest version of Sourcemod (dev 1.13 build 7293 or later)
+2. Make sure you have the version of Sourcemod dev 1.13 build 7294 (update will be a bit later)
 3. Download this repository.
 2. Copy `tf2attributes.smx` to `addons/sourcemod/plugins/`.
 3. Copy `tf2.attributes.txt` to `addons/sourcemod/gamedata/`.
